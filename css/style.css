@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+:root{
+    --color-elementos: #0094FF; 
+    --color-bg: #0E131E; 
+    --color-txt: #FFFFFF; 
+    --color-bg-elementos: #1B2838; 
+}
+
+body {
+    background-color: var(--color-bg);
+}
+
+ul, a {
+    text-decoration: none;              
+    list-style: none;
+}
+
+.button {
+    background-color: var(--color-elementos);
+    color: var(--color-txt);
+    padding: 1.125rem 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.bar-mobile {
+    display: none;
+}

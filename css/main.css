@@ -1,0 +1,317 @@
+.container-main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bar-navigation ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-bg-elementos);
+    padding: 1.250rem;
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+}
+
+.bar-navigation li a {
+    color: var(--color-txt);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.search {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-bg-elementos);
+    padding: 1.250rem;
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+    color: var(--color-elementos);
+}
+
+.search p {
+    margin-left: 2rem;
+    color: var(--color-txt);
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.featured-games {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.steam-navigation {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.steam-navigation p {
+    color: var(--color-txt);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.bar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar ul li a {
+    width: 100%;
+    background-color: var(--color-elementos);
+    color: var(--color-txt);
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.category-explore {
+    margin: 6rem 0;
+}
+
+.title-category {
+    color: var(--color-txt);
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.cards {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.125rem;
+}
+
+.card {
+    border-radius: 0px 0px 5px 5px;
+}
+
+.info-price {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    margin-top: 1rem;
+}
+
+.price-percent,
+.price-percent-free {
+    background-color: var(--color-elementos);
+    padding: 4px 8px;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: var(--color-txt);
+}
+
+.original-price {
+    color: #AAAAAA;
+}
+
+.name-game {
+    margin-top: 1rem;
+    color: var(--color-txt);
+    text-transform: capitalize;
+}
+
+.new-price {
+    color: var(--color-txt);
+}
+
+.free-games {
+    margin-top: 3rem;
+}
+
+.cards-games-free {
+    display: flex;
+    gap: 1rem;
+}
+
+.day-ofert {
+    color: #AAAAAA;
+    margin-top: 1rem;
+}
+
+.info-game-free {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.ofert-day {
+    color: var(--color-txt);
+    text-transform: uppercase;
+}
+
+.price-percent-free {
+    margin-left: 60px;
+}
+
+@media (max-width: 420px) {
+    .bar-navigation {
+        display: none;
+    }
+
+    .search {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 5rem;
+        margin-left: 3rem;
+    }
+
+    .search {
+        background-color: var(--color-bg-elementos);
+        align-items: center;
+        border-radius: 0.5rem;
+        margin-top: 3rem;
+        color: var(--color-elementos);
+    }
+
+    .search p {
+        margin-left: 0;
+        color: var(--color-txt);
+        font-weight: 600;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+    .featured-games {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .title-category {
+        text-align: center;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards-games-free {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards-games-free img {
+        width: 300px;
+    }
+
+    .info-game-free {
+        display: flex;
+        font-size: .8rem;
+    }
+
+    .div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 820px) {
+    header {
+        width: 100%;
+    }
+
+    .bar-navigation {
+        display: none;
+    }
+
+    .search {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 5rem;
+        margin-left: 15rem;
+    }
+
+    .search {
+        background-color: var(--color-bg-elementos);
+        align-items: center;
+        border-radius: 0.5rem;
+        margin-top: 3rem;
+        color: var(--color-elementos);
+    }
+
+    .search p {
+        margin-left: 0;
+        color: var(--color-txt);
+        font-weight: 600;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+    .featured-games {
+        max-width: 720px;
+        margin: 3rem auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .title-category {
+        text-align: center;
+    }
+
+    .cards {
+        width: 690px;
+        margin: 2rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 1rem;
+    }
+
+    .cards-games-free {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards-games-free img {
+        width: 300px;
+    }
+
+    .info-game-free {
+        display: flex;
+        font-size: .8rem;
+    }
+
+    .div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

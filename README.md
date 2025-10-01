@@ -17,3 +17,10 @@ Explorar por Categoria: Exibição de cards de jogos com nome, preço original, 
 Jogos Gratuitos: Seção dedicada a jogos em oferta gratuita, com detalhes da promoção.
 Responsividade: Layout adaptável para diferentes tamanhos de tela (desktop, tablet e mobile).
 Footer: Rodapé com o logo da Steam.
+
+📱 Responsividade
+O projeto foi desenvolvido com foco em responsividade, adaptando-se a diferentes tamanhos de tela:
+
+Mobile (até 420px): Oculta os menus de navegação padrão, exibe uma barra de navegação mobile simplificada e ajusta o layout dos cards e seções.
+Tablet (até 820px): Similar ao mobile, com ajustes específicos para telas maiores de tablet.
+Desktop: Layout completo com todos os elementos de navegação e conteúdo.
